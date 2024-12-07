@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bah3as8hvo6jj" path="res://assets/sprites/tileset.png" id="1_782xs"]
 [ext_resource type="Texture2D" uid="uid://ddu2f0rgkfg6r" path="res://assets/sprites/elster-sprite.png" id="2_ad7ko"]
-[ext_resource type="Texture2D" uid="uid://cae7hplptedko" path="res://assets/sprites/spaceship-tileset-hypersleep.webp" id="3_am4q8"]
+[ext_resource type="Texture2D" uid="uid://v3hb7m17wesq" path="res://assets/sprites/spaceship-tileset-hypersleep.png" id="3_ejsvr"]
 [ext_resource type="Texture2D" uid="uid://bqurc3wv5jdpc" path="res://assets/sprites/pixil-frame-0.png" id="4_4g2ts"]
 
 [node name="main" type="Node"]
@@ -24,10 +24,10 @@ texture = ExtResource("2_ad7ko")
 [node name="Sprite2D" type="Sprite2D" parent="world/ambient"]
 position = Vector2(754.487, -190.282)
 scale = Vector2(7.40646, 7.40646)
-texture = ExtResource("3_am4q8")
+texture = ExtResource("3_ejsvr")
 
 [node name="player" type="Sprite2D" parent="world"]
-position = Vector2(126.002, 184.3)
+position = Vector2(830, 251)
 scale = Vector2(2.4431, 2.4431)
 texture = ExtResource("2_ad7ko")
 offset = Vector2(-18.0093, -8.59566)
@@ -54,11 +54,11 @@ offset_left = -84.4873
 offset_top = -747.367
 offset_right = 2834.51
 offset_bottom = 679.633
-scale = Vector2(1.00825, 0.924758)
+scale = Vector2(1.00869, 0.839435)
 pivot_offset = Vector2(-15605, -10656)
 text = "Mecanica: Oxygen Scramble
 
-Visión General
+Visión Gen eral
 Imagina estar atrapado en una estación espacial averiada, donde cada respiro es una cuenta regresiva hacia tu final. Oxygen Scramble no es solo una mecánica de supervivencia; es el eje que conecta la jugabilidad con la narrativa y el terror psicológico. La gestión del oxígeno no será un simple indicador, sino una experiencia inmersiva que obliga al jugador a pensar y adaptarse.
 
 Mecánicas Principales

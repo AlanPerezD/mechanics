@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cae7hplptedko"
-path="res://.godot/imported/spaceship-tileset-hypersleep.webp-a64aa25b72edd3317451df0198e73cd0.ctex"
+uid="uid://v3hb7m17wesq"
+path="res://.godot/imported/spaceship-tileset-hypersleep.png-908b782370b73baa777bfae97c26e477.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/spaceship-tileset-hypersleep.webp"
-dest_files=["res://.godot/imported/spaceship-tileset-hypersleep.webp-a64aa25b72edd3317451df0198e73cd0.ctex"]
+source_file="res://assets/sprites/spaceship-tileset-hypersleep.png"
+dest_files=["res://.godot/imported/spaceship-tileset-hypersleep.png-908b782370b73baa777bfae97c26e477.ctex"]
 
 [params]
 
