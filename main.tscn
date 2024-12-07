@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://bah3as8hvo6jj" path="res://assets/sprites/tileset.png" id="1_782xs"]
 [ext_resource type="Texture2D" uid="uid://ddu2f0rgkfg6r" path="res://assets/sprites/elster-sprite.png" id="2_ad7ko"]
 [ext_resource type="Texture2D" uid="uid://cae7hplptedko" path="res://assets/sprites/spaceship-tileset-hypersleep.webp" id="3_am4q8"]
-[ext_resource type="Texture2D" uid="uid://do8jcyhkuy7hd" path="res://assets/sprites/oxygen meter.png" id="4_vxd7l"]
+[ext_resource type="Texture2D" uid="uid://bqurc3wv5jdpc" path="res://assets/sprites/pixil-frame-0.png" id="4_4g2ts"]
 
 [node name="main" type="Node"]
 
@@ -34,6 +34,80 @@ offset = Vector2(-18.0093, -8.59566)
 flip_h = true
 
 [node name="OxygenMeter" type="Sprite2D" parent="."]
-position = Vector2(9605, -6880)
-scale = Vector2(5.08, 5.08)
-texture = ExtResource("4_vxd7l")
+position = Vector2(18290, -1125)
+scale = Vector2(23, 23)
+texture = ExtResource("4_4g2ts")
+offset = Vector2(8.25699, 0.177986)
+
+[node name="OxygenMeter2" type="Sprite2D" parent="."]
+position = Vector2(18252, 1351)
+scale = Vector2(23, 23)
+texture = ExtResource("4_4g2ts")
+offset = Vector2(8.25699, 0.177986)
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(-7721.51, -1588.63)
+scale = Vector2(10.7654, 11.4584)
+
+[node name="Label" type="Label" parent="Node2D"]
+offset_left = -84.4873
+offset_top = -747.367
+offset_right = 2834.51
+offset_bottom = 679.633
+scale = Vector2(1.00825, 0.924758)
+pivot_offset = Vector2(-15605, -10656)
+text = "Mecanica: Oxygen Scramble
+
+Visión General
+Imagina estar atrapado en una estación espacial averiada, donde cada respiro es una cuenta regresiva hacia tu final. Oxygen Scramble no es solo una mecánica de supervivencia; es el eje que conecta la jugabilidad con la narrativa y el terror psicológico. La gestión del oxígeno no será un simple indicador, sino una experiencia inmersiva que obliga al jugador a pensar y adaptarse.
+
+Mecánicas Principales
+Sistema Dinámico de Oxígeno
+
+¿Qué hace único al oxígeno?
+No es solo un temporizador; el nivel de oxígeno afecta directamente cómo se juega.
+Sprintar, usar herramientas pesadas o interactuar con sistemas dañados aumenta el consumo, mientras que descansar en zonas seguras lo ralentiza.
+Tensión constante: El oxígeno nunca es suficiente, pero siempre hay formas de extenderlo, si estás dispuesto a asumir riesgos.
+Recolección y Gestión de Recursos
+
+Botellas de oxígeno: No todas son iguales. Algunas están parcialmente vacías, otras contaminadas y pocas son de alta calidad. Usar oxígeno contaminado podría provocar alucinaciones o tos que atraigan enemigos.
+Dispositivos limitados: Los dispensadores de oxígeno son una bendición y una maldición. Pueden estar dañados, ser trampas o ruidosos, llamando la atención de las amenazas cercanas.
+Propósito Narrativo y Conexión Temática
+
+El fallo del sistema de soporte vital no es un accidente. Esta mecánica nos lleva al corazón del misterio:
+¿Quién saboteó la estación?
+¿Por qué hay áreas deliberadamente sin oxígeno?
+¿Qué se estaba tratando de contener?
+Cada decisión sobre el oxígeno revela piezas del rompecabezas más grande, sumergiendo al jugador en la historia.
+Interacción Realista con el Traje de Oxígeno
+
+El jugador debe conectar manualmente las botellas a su traje, reparar daños para evitar fugas y depender de una interfaz limitada (como un HUD agrietado) para saber cuánto oxígeno queda.
+Esta interacción agrega realismo y refuerza la sensación de vulnerabilidad.
+Elementos de Terror y Supervivencia
+Audio y Ambiente:
+
+Cuando el oxígeno baja, el jugador escucha su respiración volverse más pesada. El sonido ambiental se distorsiona y aparecen alucinaciones auditivas.
+Esto no es solo decoración; altera cómo el jugador percibe el entorno.
+Visuales Claustrofóbicos:
+
+Bajo nivel de oxígeno = visión borrosa o de túnel. Luces de emergencia rojas parpadeantes crean un ambiente desesperante.
+Zonas de Riesgo:
+
+Áreas sin oxígeno obligan al jugador a moverse rápidamente, tomar rutas alternativas o resolver problemas bajo presión.
+Por Qué Funciona
+Integración Total:
+Esta mecánica no es un añadido; está tejida en cada aspecto del juego. Desde la narrativa hasta los sistemas de juego, el oxígeno afecta cómo se juega y cómo se siente.
+
+Decisiones con Peso:
+
+¿Gastas tu última botella para explorar una zona peligrosa o la guardas para más adelante?
+¿Te arriesgas a usar oxígeno contaminado o tratas de llegar a un dispensador lejano?
+Cada elección es un dilema tenso con consecuencias significativas.
+Inmersión y Realismo:
+
+Los jugadores no solo ven su nivel de oxígeno; lo sienten a través de los sonidos, los visuales y la presión constante.
+Esto refuerza la atmósfera de horror y la sensación de estar en un entorno hostil donde cada segundo cuenta.
+Conclusión
+Oxygen Scramble transforma un recurso básico en el eje central de la experiencia de juego. No es solo un medidor que baja; es un sistema que obliga al jugador a comprometerse emocionalmente con cada decisión y que eleva tanto la narrativa como la jugabilidad.
+
+Esta mecánica no solo mantiene al jugador vivo; lo hace sentir vivo. ¿Qué opinan? ¿Creen que podemos profundizar aún más en la integración ambiental o narrativa?"
