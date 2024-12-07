@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=3 uid="uid://53svwh15opsm"]
+
+[ext_resource type="Texture2D" uid="uid://bah3as8hvo6jj" path="res://assets/sprites/tileset.png" id="1_782xs"]
+[ext_resource type="Texture2D" uid="uid://ddu2f0rgkfg6r" path="res://assets/sprites/elster-sprite.png" id="2_ad7ko"]
+[ext_resource type="Texture2D" uid="uid://cae7hplptedko" path="res://assets/sprites/spaceship-tileset-hypersleep.webp" id="3_am4q8"]
+[ext_resource type="Texture2D" uid="uid://do8jcyhkuy7hd" path="res://assets/sprites/oxygen meter.png" id="4_vxd7l"]
+
+[node name="main" type="Node"]
+
+[node name="Tileset" type="Sprite2D" parent="."]
+position = Vector2(10417.3, -128.469)
+scale = Vector2(4.77384, 4.77384)
+texture = ExtResource("1_782xs")
+
+[node name="player" type="Sprite2D" parent="."]
+position = Vector2(11134.7, 40.0391)
+scale = Vector2(2.21681, 2.21681)
+texture = ExtResource("2_ad7ko")
+
+[node name="world" type="Node2D" parent="."]
+
+[node name="ambient" type="Node2D" parent="world"]
+
+[node name="Sprite2D" type="Sprite2D" parent="world/ambient"]
+position = Vector2(754.487, -190.282)
+scale = Vector2(7.40646, 7.40646)
+texture = ExtResource("3_am4q8")
+
+[node name="player" type="Sprite2D" parent="world"]
+position = Vector2(126.002, 184.3)
+scale = Vector2(2.4431, 2.4431)
+texture = ExtResource("2_ad7ko")
+offset = Vector2(-18.0093, -8.59566)
+flip_h = true
+
+[node name="OxygenMeter" type="Sprite2D" parent="."]
+position = Vector2(9605, -6880)
+scale = Vector2(5.08, 5.08)
+texture = ExtResource("4_vxd7l")
